@@ -1,0 +1,67 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.hero1{
+    height: 100vh;
+    background-image: url(./images/model-s.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.upper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+h1{
+    font-size: 50px;
+
+}
+
+.lower{
+    margin-bottom: 5rem;
+
+
+}
+.btn1{
+    width: 15rem;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.btn2{
+width: 15rem;
+background-color: white;
+color: black;
+padding: 1rem;
+border-radius: 10px;
+}
+
+nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+    font-size: 20px;
+}
+    
